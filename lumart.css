@@ -1,0 +1,80 @@
+*{
+  scroll-behavior: smooth;
+}
+
+li{
+  padding: 40ch;
+}
+body{
+  background-image: url(chef.jpg);
+  /* background-color: #1f0a0a; */
+  /* background-repeat: no-repeat; */
+  /* background; */
+  animation: isaac 10s infinite;
+}
+@keyframes isaac{
+  from{
+    background-image: url(Harmburger_SIZED.jpg);
+  }
+  to{
+    background-image: url(chef.jpg);
+  }
+}
+header{
+  font-size: 8ch;
+  color: rgb(68, 0, 255);
+  margin: 1ch;
+  width: fit-content;
+  /* align-content: center; */
+  margin-left: auto;
+  margin-right: auto;
+}
+nav{
+  word-spacing: 8ch;
+  /* background-size: 50px; */
+  margin: 8ch;
+  font-size: 5ch;
+  width: fit-content;
+  /* background-color: rgba(65, 225, 86, 0.308); */
+  text-align: center;
+  color: saddlebrown;
+  margin-left: auto;
+  margin-right: auto;
+  text-transform: uppercase;
+  /* background-color: #000000a8; */
+  width: 70ch;
+
+}
+a{
+  text-decoration: none;
+  /* background-color: black; */
+  color: rgba(250, 24, 8, 0.911);
+}
+a:hover{
+  /* background-color: #1ce07456; */
+  border-radius: 1ch;
+  text-decoration: underline;
+  /* text-decorationcolor: red ; */
+  color: #fab300;
+}
+footer{
+  font-size: 6ch;
+  margin: 1ch;
+  /* padding-bottom: 30px; */
+  /* background-color: rgba(34, 139, 34, 0.5); */
+  text-decoration: underline;
+  text-align: center;
+  transition: cubic-bezier(0.86, 0, 0.07, 1);
+  color: rgba(45, 32, 224, 0.945);
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+  
+}
+  .example{
+    text-decoration: none;
+
+
+
+  }
