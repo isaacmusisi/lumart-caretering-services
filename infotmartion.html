@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url(pizza.jpg);
+            animation: re 70s infinite;
+        }
+        @keyframes re{
+            from{
+                background-image: url(pizza.jpg);
+            }
+            to{
+                background-image: url(i.jpg);
+            }
+        }
+        header{
+            text-align: center;
+            color:#002fff;
+            font-size: 40px;
+        }
+        li:hover{
+            background-color: wheat;
+            color:mediumblue
+        }
+        li{
+            list-style:lower-greek;
+            color: rgb(0, 255, 42);
+            font-size: 30px;
+            text-align: center;
+            background-color: rgba(255, 0, 0, 0.404);
+            margin: 70px;
+        }
+
+nav{
+     height: 4vh;
+    text-transform: uppercase;
+    word-spacing: 5ch;
+    color: #f5f5dc;
+    font-size: 30px;
+    text-decoration: none;
+    display: flex;
+    text-align: end;
+    background-color: rgba(58, 8, 8, 0.247);
+    justify-content: center;
+    align-items: center;
+}
+nav a{
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white;
+    transition: 0.60s;
+    font-size: 20px;
+    border-radius: 20px;
+    margin: 10px;
+    
+    transition: .9s;
+}
+.a:hover{
+    transform: scale(1.05);
+}
+nav a:hover{
+   background-color: #000000;
+    text-decoration: none;
+    color: #fff000;
+}
+    </style>
+</head>
+<body>
+     <header>what we can do <br>
+     were are we needed</header>
+     <nav>
+        <a href="sevices.html">services</a>
+        <!-- <a href="">ABOUT</a> -->
+        <a href="infotmartion.html">Information</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+     <li>
+         wedding ceromonies
+     </li> <br>
+      <li>
+             birthday parties
+         </li> <br>
+         <li>
+             introduction parties
+         </li> <br>
+         <li>
+             burial ceromonies
+         </li>
+         
+</body>
+</html>
